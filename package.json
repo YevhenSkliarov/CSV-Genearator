@@ -1,0 +1,14 @@
+{
+  "name": "csv_generator",
+  "version": "1.0.0",
+  "description": "csv generator",
+  "scripts": {
+    "run": "node app.js 5"
+  },
+  "author": "yskliarov",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^7.3.0",
+    "convert-array-to-csv": "^2.0.0"
+  }
+}
