@@ -4,7 +4,7 @@ const header = ['id', 'full_name', 'country', 'ssn', 'date_of_birth', 'zipcode']
 const generateData =require('./DataGenerator/dataGenerator')
 
 const dataArrays = [];
-generateData(dataArrays,600000);
+generateData(dataArrays);
 const val = convertArrayToCSV(dataArrays, {
     header,
     separator: ','
